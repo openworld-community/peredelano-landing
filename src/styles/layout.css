@@ -1,0 +1,25 @@
+/* stylelint-disable unit-no-unknown, unit-allowed-list */
+:root {
+	/* Initialize */
+	--unit-width: 4;
+	--layout-width: 360;
+	--page-gap-units: 4;
+
+	/* Units && Layout */
+	--px: calc(100vw / var(--layout-width));
+	--rpx: max(1--px, 0.0625rem);
+	--gap: 16--px;
+	--container-width: calc(1--px * (var(--layout-width) - 2--page-gap-units));
+
+	@media (--md) {
+		/* Units && Layout */
+		--layout-width: 720;
+		--page-gap-units: 8;
+	}
+
+	@media (--lg) {
+		/* Units && Layout */
+		--layout-width: 1260;
+		--page-gap-units: 16;
+	}
+}

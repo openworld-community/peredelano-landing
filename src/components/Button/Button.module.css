@@ -1,0 +1,15 @@
+.button {
+	background-color: red;
+
+	&:hover {
+		background-color: blue;
+	}
+
+	&--default {
+		color: green;
+	}
+
+	&--primary {
+		color: yellow;
+	}
+}
