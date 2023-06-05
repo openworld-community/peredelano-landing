@@ -4,6 +4,6 @@
 -   [x] Eslint
 -   [x] Stylelint
 -   [x] Prettier
--   [ ] Husky
+-   [x] Husky
 -   [x] PostCSS
--   [ ] Docker
+-   [x] Docker
