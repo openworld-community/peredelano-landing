@@ -1,6 +1,6 @@
 :root {
 	/* Fonts */
-	--font-family: 'Rubik', sans-serif;
+	--font-family: 'JetBrains Mono', sans-serif;
 
 	/* H1 */
 	--font-size-h1: 32--rpx;
@@ -9,14 +9,6 @@
 	/* H2 */
 	--font-size-h2: 28--rpx;
 	--line-height-h2: 36--rpx;
-
-	/* H3 */
-	--font-size-h3: 24--rpx;
-	--line-height-h3: 32--rpx;
-
-	/* H4 */
-	--font-size-h4: 20--rpx;
-	--line-height-h4: 28--rpx;
 
 	/* T1 */
 	--font-size-t1: 18--rpx;
