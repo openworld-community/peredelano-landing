@@ -109,7 +109,7 @@ docker run --name peredelano-landing -p 3000:3000 -d peredelano-landing-image
 
 ## Правила написания стилей
 
-Стили пишем по БЭМ. В нотации block\_\_element-modifier.
+Стили пишем по БЭМ. В нотации block\_\_element--modifier.
 
 Ознакомиться с методологией можно тут: https://ru.bem.info/methodology/quick-start/
 

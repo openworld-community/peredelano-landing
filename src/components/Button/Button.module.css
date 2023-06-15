@@ -1,15 +1,21 @@
 .button {
-	background-color: red;
-
-	&:hover {
-		background-color: blue;
+	&--contained {
+		--color-button-bg: var(--color-blue);
+		--color-button-bg-hover: var(--color-white);
+		--color-button-bg-active: var(--color-blue);
+		--color-button-text: var(--color-white);
+		--color-button-text-hover: var(--color-blue);
+		--color-button-text-active: var(--color-white);
+		--color-button-border: var(--color-blue);
+		--color-button-border-hover: var(--color-blue);
+		--color-button-border-active: var(--color-white);
 	}
 
-	&--default {
-		color: green;
-	}
-
-	&--primary {
-		color: yellow;
+	&--outlined {
+		--color-button-bg: var(--color-blue);
+		--color-button-bg-hover: var(--color-white);
+		--color-button-bg-active: var(--color-blue);
+		--color-button-text: ;
+		--color-button-outline: ;
 	}
 }
