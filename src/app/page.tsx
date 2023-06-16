@@ -7,8 +7,10 @@ export default function Home() {
 		<>
 			<h1>Hello world</h1>
 			<Button as={Link} variant="default" href="/ebala">
-				Click me
+				TEST 1
 			</Button>
+			<Button variant="primary"> TEST 2 </Button>
+			<Button variant="secondary"> TEST 3 </Button>
 		</>
 	)
 }

@@ -1,5 +1,5 @@
 .button {
-	&--contained {
+	&--default {
 		--color-button-bg: var(--color-blue);
 		--color-button-bg-hover: var(--color-white);
 		--color-button-bg-active: var(--color-blue);
@@ -9,13 +9,90 @@
 		--color-button-border: var(--color-blue);
 		--color-button-border-hover: var(--color-blue);
 		--color-button-border-active: var(--color-white);
+
+		color: var(--color-button-text);
+		background-color: var(--color-button-bg);
+		border-color: var(--color-button-bg);
+
+		&:hover {
+			color: var(--color-button-text-hover);
+			background-color: var(--color-button-bg-hover);
+		}
+
+		&:active {
+			border-color: var(--color-button-border-active);
+		}
+
+		&:focus {
+			border: '2px' solid var(--color-button-border-active);
+		}
 	}
 
-	&--outlined {
+	&--primary {
 		--color-button-bg: var(--color-blue);
 		--color-button-bg-hover: var(--color-white);
 		--color-button-bg-active: var(--color-blue);
-		--color-button-text: ;
-		--color-button-outline: ;
+		--color-button-text: var(--color-white);
+		--color-button-text-hover: var(--color-blue);
+		--color-button-text-active: var(--color-white);
+		--color-button-border: var(--color-blue);
+		--color-button-border-hover: var(--color-blue);
+		--color-button-border-active: var(--color-white);
+
+		color: var(--color-button-text);
+		background-color: var(--color-button-bg);
+		border-color: var(--color-button-bg);
+
+		&:hover {
+			color: var(--color-button-text-hover);
+			background-color: var(--color-button-bg-hover);
+		}
+
+		&:active {
+			border-color: var(--color-button-border-active);
+		}
+
+		&:focus {
+			border: '2px' solid var(--color-button-border-active);
+		}
+	}
+
+	&--secondary {
+		--color-button-bg: var(--color-black);
+		--color-button-bg-hover: var(--color-white);
+		--color-button-bg-active: var(--color-black);
+		--color-button-text: var(--color-white);
+		--color-button-text-hover: var(--color-black);
+		--color-button-text-active: var(--color-white);
+		--color-button-border: var(--color-black);
+		--color-button-border-hover: var(--color-black);
+		--color-button-border-active: var(--color-white);
+
+		color: var(--color-button-text);
+		background-color: var(--color-button-bg);
+		border-color: var(--color-button-bg);
+
+		&:hover {
+			color: var(--color-button-text-hover);
+			background-color: var(--color-button-bg-hover);
+		}
+
+		&:active {
+			border-color: var(--color-button-border-active);
+		}
+
+		&:focus {
+			border: 2 px solid var(--color-button-border-active);
+		}
+	}
+
+	&--medium {
+		width: 270--rpx;
+		height: 49--rpx;
+	}
+
+	&--small {
+		width: 164--rpx;
+		height: 45--rpx;
 	}
 }
