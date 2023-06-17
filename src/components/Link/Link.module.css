@@ -1,0 +1,19 @@
+.link {
+	cursor: pointer;
+
+	display: inline-block;
+
+	margin: 30--rpx 0 0 30--rpx;
+
+	font-size: var(--font-size-t2);
+	line-height: var(--line-height-t2);
+	color: var(--color-white);
+	text-decoration: none;
+
+	background-color: transparent;
+	border: none;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
