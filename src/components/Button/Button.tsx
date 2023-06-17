@@ -12,23 +12,26 @@ type ButtonStyleProps = VariantProps<typeof buttonStyle>
 const buttonStyle = cva(styles.button, {
 	variants: {
 		variant: {
+			outlined: styles['button--outlined'],
+			contained: styles['button--contained'],
+		},
+		color: {
+			default: styles['button--default'],
 			primary: styles['button--primary'],
 			secondary: styles['button--secondary'],
-			default: styles['button--default'],
-		},
-		size: {
-			medium: styles['button--medium'],
-			small: styles['button--small'],
 		},
 	},
+	compoundVariants: [
+		{ variant: ['outlined', 'contained'], color: ['default', 'primary', 'secondary'] },
+	],
 })
 
 type ButtonProps<C extends ElementType> = PolymorphicComponentProp<C, ButtonStyleProps>
 
 function Button<C extends ElementType = 'button'>({
 	className,
-	variant = 'default',
-	size = 'medium',
+	variant = 'contained',
+	color = 'default',
 	as,
 	children,
 	...props
@@ -38,7 +41,7 @@ function Button<C extends ElementType = 'button'>({
 	return (
 		<Component
 			type={Component === 'button' ? 'button' : undefined}
-			className={buttonStyle({ variant, className, size })}
+			className={buttonStyle({ variant, className, color })}
 			{...props}
 		>
 			{children}
