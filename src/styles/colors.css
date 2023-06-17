@@ -1,7 +1,29 @@
 :root {
-	--color-blue: #546fef;
-	--color-black: #000;
-	--color-green: #7ede8f;
-	--color-grey: #4a5159;
-	--color-white: #fff;
+	/* Black & White */
+	--color-black: #000; /* oklch(100% 0 0) UI kit */
+	--color-white: #fff; /* oklch(0% 0 0) UI kit */
+
+	/* Gray */
+	--color-gray-reverse: #9da9b3; /* oklch(72.8% 0.02 245) UI kit */
+	--color-gray-light: #4b5055; /* oklch(43% 0.01 245) */
+	--color-gray-medium: #383c41; /* oklch(35,5% 0.01 245) UI kit */
+	--color-gray-dark: #22272b; /* #22272b oklch(27% 0.01 245) UI kit */
+
+	/* Blue */
+	--color-blue-reverse: #b2c3f8; /* oklch(82.3% 0.08 270) */
+	--color-blue-light: #5470e5; /* oklch(58.5% 0.18 270) UI kit */
+	--color-blue-medium: #4159cc; /* oklch(51.2% 0.18 270) */
+	--color-blue-dark: #3043b5; /* oklch(44.3% 0.18 270) */
+
+	/* Green */
+	--color-green: #95dc96; /* oklch(83% 0.12 145) */
+
+	/* Yellow */
+	--color-yellow: #f2d878; /* oklch(88.5% 0.12 95) */
+
+	/* Pink */
+	--color-pink: #d16c9f; /* oklch(66.4% 0.14 350) */
+
+	/* Red */
+	--color-red: #e9604e; /* oklch(66 0.17 30) */
 }

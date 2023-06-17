@@ -1,7 +1,4 @@
 :root {
-	/* Fonts */
-	--font-family: 'JetBrains Mono', sans-serif;
-
 	/* H1 */
 	--font-size-h1: 32--rpx;
 	--line-height-h1: 40--rpx;

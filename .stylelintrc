@@ -17,6 +17,7 @@
       "dpi"
     ],
     "unit-no-unknown": [true, { "ignoreUnits": ["--px", "--rpx", "--gap"] }],
-    "function-calc-no-unspaced-operator": null
+    "function-calc-no-unspaced-operator": null,
+    "selector-class-pattern": null
   }
 }

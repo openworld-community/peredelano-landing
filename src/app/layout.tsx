@@ -2,11 +2,15 @@ import { PropsWithChildren } from 'react'
 
 import '@/styles/global.css'
 
+import { cx } from 'class-variance-authority'
 import { JetBrains_Mono } from 'next/font/google'
 
+import styles from './styles.module.css'
+
 const jetBrainsMono = JetBrains_Mono({
-	subsets: ['latin'],
+	subsets: ['latin', 'cyrillic'],
 	display: 'swap',
+	variable: '--font-family',
 })
 
 export const metadata = {
@@ -16,8 +20,8 @@ export const metadata = {
 
 export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
-		<html lang="ru" className={jetBrainsMono.className}>
-			<body>{children}</body>
+		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
+			<body className={styles.body}>{children}</body>
 		</html>
 	)
 }
