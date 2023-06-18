@@ -1,5 +1,10 @@
-import { Ideas } from './_components'
+import { Ideas, Startups } from './_components'
 
 export default function Home() {
-	return <Ideas />
+	return (
+		<>
+			<Ideas />
+			<Startups />
+		</>
+	)
 }
