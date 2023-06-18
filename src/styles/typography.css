@@ -1,7 +1,4 @@
 :root {
-	/* Fonts */
-	--font-family: 'Rubik', sans-serif;
-
 	/* H1 */
 	--font-size-h1: 32--rpx;
 	--line-height-h1: 40--rpx;
@@ -13,10 +10,6 @@
 	/* H3 */
 	--font-size-h3: 24--rpx;
 	--line-height-h3: 32--rpx;
-
-	/* H4 */
-	--font-size-h4: 20--rpx;
-	--line-height-h4: 28--rpx;
 
 	/* T1 */
 	--font-size-t1: 18--rpx;
@@ -34,7 +27,6 @@
 	--typo-h1: 700 var(--font-size-h1) / var(--line-height-h1) var(--font-family);
 	--typo-h2: 700 var(--font-size-h2) / var(--line-height-h2) var(--font-family);
 	--typo-h3: 700 var(--font-size-h3) / var(--line-height-h3) var(--font-family);
-	--typo-h4: 700 var(--font-size-h4) / var(--line-height-h4) var(--font-family);
 	--typo-t1: 400 var(--font-size-t1) / var(--line-height-t1) var(--font-family);
 	--typo-t2: 400 var(--font-size-t2) / var(--line-height-t2) var(--font-family);
 	--typo-t3: 400 var(--font-size-t3) / var(--line-height-t3) var(--font-family);
@@ -51,10 +43,6 @@
 		/* H3 */
 		--font-size-h3: 28--rpx;
 		--line-height-h3: 36--rpx;
-
-		/* H4 */
-		--font-size-h4: 24--rpx;
-		--line-height-h4: 32--rpx;
 	}
 
 	@media (--lg) {
