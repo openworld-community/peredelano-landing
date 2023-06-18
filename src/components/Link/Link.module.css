@@ -1,19 +1,35 @@
 .link {
 	cursor: pointer;
 
-	display: inline-block;
+	position: relative;
 
-	margin: 30--rpx 0 0 30--rpx;
+	display: inline;
 
-	font-size: var(--font-size-t2);
-	line-height: var(--line-height-t2);
-	color: var(--color-white);
-	text-decoration: none;
+	color: var(--color-yellow);
+	text-decoration: underline;
 
 	background-color: transparent;
 	border: none;
 
 	&:hover {
-		text-decoration: underline;
+		color: var(--color-pink);
+	}
+
+	&:active {
+		color: var(--color-red);
+	}
+
+	&:focus-visible::before {
+		content: '';
+
+		position: absolute;
+		inset: -1--rpx -6--rpx;
+
+		border: 2--rpx solid var(--color-yellow);
+		border-radius: 4--rpx;
+	}
+
+	&:focus-visible {
+		outline: none;
 	}
 }

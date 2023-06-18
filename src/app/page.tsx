@@ -4,10 +4,15 @@ export default function Home() {
 	return (
 		<>
 			<h1>Hello world</h1>
-
-			<Link href="https://github.com/orgs/openworld-community/projects/9/views/1?pane=issue&itemId=29609718">
-				Ссылка тест
-			</Link>
+			<p style={{ color: '#fff' }}>
+				Lorem ipsum dolor sit,{' '}
+				<Link as="a" href="#d">
+					amet
+				</Link>{' '}
+				consectetur adipisicing elit. Fugit sit possimus tempora? Quidem , facere maiores,
+				provident debitis delectus optio voluptatibus laboriosam neque expedita voluptates
+				incidunt repellat, quae molestiae assumenda?
+			</p>
 		</>
 	)
 }

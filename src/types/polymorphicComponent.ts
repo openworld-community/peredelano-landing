@@ -1,4 +1,9 @@
-import { ComponentPropsWithoutRef, ComponentPropsWithRef, ElementType } from 'react'
+import {
+	ComponentPropsWithoutRef,
+	ComponentPropsWithRef,
+	ElementType,
+	PropsWithChildren,
+} from 'react'
 
 // Read more about Polymorphic Components:
 // https://www.freecodecamp.org/news/build-strongly-typed-polymorphic-components-with-react-and-typescript/
@@ -9,10 +14,9 @@ type AsProp<Component extends ElementType> = {
 
 type PropsToOmit<Component extends ElementType, Props> = keyof (AsProp<Component> & Props)
 
-export type PolymorphicComponentProp<
-	Component extends ElementType,
-	Props = {}
-> = React.PropsWithChildren<Props & AsProp<Component>> &
+export type PolymorphicComponentProp<Component extends ElementType, Props = {}> = PropsWithChildren<
+	Props & AsProp<Component>
+> &
 	Omit<ComponentPropsWithoutRef<Component>, PropsToOmit<Component, Props>>
 
 export type PolymorphicRef<Component extends ElementType> = ComponentPropsWithRef<Component>['ref']
