@@ -3,23 +3,23 @@
 	/* Initialize */
 	--unit-width: 4;
 	--layout-width: 360;
-	--page-gap-units: 4;
+	--page-gap: 16;
 
 	/* Units && Layout */
 	--px: calc(100vw / var(--layout-width));
 	--rpx: max(1--px, 0.0625rem);
 	--gap: 16--px;
-	--container-width: calc(1--px * (var(--layout-width) - 2--page-gap-units));
+	--container-width: calc(1--px * (var(--layout-width) - 2--page-gap));
 
 	@media (--md) {
 		/* Units && Layout */
 		--layout-width: 720;
-		--page-gap-units: 8;
+		--page-gap: 32;
 	}
 
 	@media (--lg) {
 		/* Units && Layout */
 		--layout-width: 1260;
-		--page-gap-units: 16;
+		--page-gap: 64;
 	}
 }

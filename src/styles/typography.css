@@ -25,8 +25,8 @@
 
 	/* Typography */
 	--typo-h1: 700 var(--font-size-h1) / var(--line-height-h1) var(--font-family);
-	--typo-h2: 700 var(--font-size-h2) / var(--line-height-h2) var(--font-family);
-	--typo-h3: 700 var(--font-size-h3) / var(--line-height-h3) var(--font-family);
+	--typo-h2: 500 var(--font-size-h2) / var(--line-height-h2) var(--font-family);
+	--typo-h3: 500 var(--font-size-h3) / var(--line-height-h3) var(--font-family);
 	--typo-t1: 400 var(--font-size-t1) / var(--line-height-t1) var(--font-family);
 	--typo-t2: 400 var(--font-size-t2) / var(--line-height-t2) var(--font-family);
 	--typo-t3: 400 var(--font-size-t3) / var(--line-height-t3) var(--font-family);
