@@ -14,7 +14,8 @@
       "deg",
       "s",
       "ms",
-      "dpi"
+      "dpi",
+      "%"
     ],
     "unit-no-unknown": [true, { "ignoreUnits": ["--px", "--rpx", "--gap"] }],
     "function-calc-no-unspaced-operator": null

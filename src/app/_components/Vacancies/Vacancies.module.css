@@ -1,0 +1,42 @@
+.vacancies {
+	background-color: var(--color-gray-dark);
+
+	&__container {
+		box-sizing: border-box;
+		width: var(--container-width);
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 48--px;
+		padding-bottom: 320--px;
+
+		background-image: url('/images/vacancies/pattern.sm.svg');
+		background-repeat: no-repeat;
+		background-position: bottom 48--px left;
+		background-size: 240--px auto;
+
+		@media (--md) {
+			padding-top: 96--px;
+			padding-right: 192--px;
+
+			background-image: url('/images/vacancies/pattern.md.svg');
+			background-position: bottom 64--px center;
+			background-size: 100% auto;
+		}
+
+		@media (--lg) {
+			padding-right: 480--px;
+			padding-bottom: 480--px;
+			background-image: url('/images/vacancies/pattern.lg.svg');
+		}
+	}
+
+	&__title {
+		padding-bottom: 32--px;
+		font: var(--typo-h2);
+	}
+
+	&__description {
+		padding-bottom: 24--px;
+		font: var(--typo-t2);
+	}
+}
