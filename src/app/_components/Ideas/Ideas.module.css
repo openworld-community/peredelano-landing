@@ -1,5 +1,4 @@
 .ideas {
-	position: relative;
 	background-color: var(--color-blue-light);
 
 	&__container {
@@ -31,7 +30,6 @@
 	&__title {
 		padding-bottom: 32--px;
 		font: var(--typo-h2);
-		color: var(--color-white);
 
 		@media (--md) {
 			padding-right: 32--px;
@@ -48,7 +46,6 @@
 	&__description {
 		padding-bottom: 24--px;
 		font: var(--typo-t2);
-		color: var(--color-white);
 
 		@media (--md) {
 			padding-right: 96--px;

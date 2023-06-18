@@ -26,4 +26,6 @@
 
 	/* Red */
 	--color-red: #e9604e; /* oklch(66 0.17 30) */
+
+	color: var(--color-white);
 }
