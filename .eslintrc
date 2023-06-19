@@ -41,7 +41,8 @@
       }
     ],
     "simple-import-sort/exports": "error",
-    "import/order": ["off"]
+    "import/order": ["off"],
+    "@next/next/no-img-element": ["off"]
   },
   "parserOptions": {
     "ecmaVersion": "latest",

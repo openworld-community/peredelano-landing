@@ -24,7 +24,7 @@
 	--line-height-t3: 24--rpx;
 
 	/* Typography */
-	--typo-h1: 700 var(--font-size-h1) / var(--line-height-h1) var(--font-family);
+	--typo-h1: 500 var(--font-size-h1) / var(--line-height-h1) var(--font-family);
 	--typo-h2: 500 var(--font-size-h2) / var(--line-height-h2) var(--font-family);
 	--typo-h3: 500 var(--font-size-h3) / var(--line-height-h3) var(--font-family);
 	--typo-t1: 400 var(--font-size-t1) / var(--line-height-t1) var(--font-family);
