@@ -16,6 +16,7 @@
 
 	&__logo {
 		display: block;
+		height: 32--px;
 	}
 
 	&__nav {
@@ -38,9 +39,10 @@
 		list-style-type: none;
 	}
 
-	&__nav-item &__nav-link {
+	&__nav-link {
 		color: var(--color-white);
 		text-decoration: none;
+		text-transform: lowercase;
 
 		&:hover {
 			color: var(--color-pink);
