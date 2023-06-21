@@ -1,5 +1,5 @@
 import { Button } from '@/components'
-import startups from '@/constants/startups'
+import { startups } from '@/constants/startups'
 
 import styles from './Startups.module.css'
 

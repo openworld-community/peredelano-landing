@@ -1,2 +1,2 @@
 export * from './footerLinks'
-export { default } from './startups'
+export { default as startups } from './startups'
