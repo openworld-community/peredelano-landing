@@ -1,4 +1,4 @@
-export const startups = [
+const startups = [
 	{
 		id: 1,
 		title: 'Peredelano Data',
