@@ -5,7 +5,7 @@ import '@/styles/global.css'
 import { cx } from 'class-variance-authority'
 import { JetBrains_Mono } from 'next/font/google'
 
-import { Footer } from '@/layouts'
+import { Footer, Header } from '@/layouts'
 
 import styles from './styles.module.css'
 
@@ -24,6 +24,7 @@ export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
 		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
 			<body className={styles.body}>
+				<Header />
 				{children}
 				<Footer />
 			</body>
