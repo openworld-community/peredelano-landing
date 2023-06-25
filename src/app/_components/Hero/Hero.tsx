@@ -7,13 +7,11 @@ export default function Hero() {
 		<section className={styles.hero}>
 			<div className={styles.hero__container}>
 				<div className={styles.hero__content}>
-					<h1 className={styles.hero__title}>
-						Добро пожаловать в сообщество Peredelano Startups!
-					</h1>
+					<h1 className={styles.hero__title}>Peredelano Startups</h1>
 					<p className={styles.hero__description}>
-						Тут мы объединяемся, чтобы вместе делать проекты. Рынок и мир сейчас
-						сложные, с работой туго, со смыслами тоже&nbsp;&mdash; поэтому мы решили
-						делать и то и другое сами.
+						Мы в комьюнити Peredelano собираемся в команды и запускаем стартапы. Вы
+						можете создай свой и позвать других людей или присоединиться к любому уже
+						действующему из списка ниже.
 					</p>
 					<Button color="primary">Список проектов</Button>
 				</div>
