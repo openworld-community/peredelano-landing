@@ -8,8 +8,8 @@ export default function Vacancies() {
 			<div className={styles.vacancies__container}>
 				<h2 className={styles.vacancies__title}>Хочешь принять участие в&nbsp;проекте?</h2>
 				<p className={styles.vacancies__description}>
-					Разработчик, дизайнер, менеджер или кто-то еще&nbsp;&mdash; мы&nbsp;рады любым
-					мастерам своего дела, а&nbsp;также новичкам
+					Разработчик, дизайнер, менджер, предприниматель нам нужны&nbsp;все, не зависимо
+					от навыков. Выбирай стартап из списка или переходи в чат
 				</p>
 				<Button
 					variant="outlined"
