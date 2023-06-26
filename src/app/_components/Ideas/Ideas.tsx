@@ -9,7 +9,7 @@ export default function Ideas() {
 				<h2 className={styles.ideas__title}>Есть идея, которая может изменить мир?</h2>
 				<p className={styles.ideas__description}>
 					Если у&nbsp;тебя есть идеи проектов&nbsp;&mdash; смело пиши, что хочешь сделать,
-					кто и&nbsp;что тебе для этого нужно
+					а&nbsp;мы&nbsp;поможем реализовать и&nbsp;собрать команду
 				</p>
 				<Button
 					variant="contained"
