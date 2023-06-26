@@ -5,7 +5,7 @@ import styles from './Startups.module.css'
 
 export default function Startups() {
 	return (
-		<section className={styles.startups}>
+		<section className={styles.startups} id="startups">
 			<div className={styles.startups__container}>
 				<h2 className={styles.startups__title}>Наши стартапы</h2>
 				<div className={styles.startups__list}>

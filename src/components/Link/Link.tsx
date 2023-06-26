@@ -9,6 +9,10 @@ import styles from './Link.module.css'
 
 type LinkProps<C extends ElementType> = PolymorphicComponentProp<C>
 
+/**
+ * Используется для внутритекстовых ссылок
+ */
+
 function Link<C extends ElementType = typeof NextLink>({
 	className,
 	as,

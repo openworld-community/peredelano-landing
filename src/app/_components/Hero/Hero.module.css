@@ -1,0 +1,48 @@
+.hero {
+	&__container {
+		display: flex;
+		gap: 4--gap;
+		align-items: center;
+
+		box-sizing: border-box;
+		width: var(--container-width);
+		min-height: calc(100vh - 96--px);
+		margin-right: auto;
+		margin-left: auto;
+		padding-top: 48--px;
+		padding-bottom: 48--px;
+
+		@media (--lg) {
+			gap: 16--gap;
+		}
+	}
+
+	&__content {
+		flex-grow: 1;
+	}
+
+	&__image {
+		display: none;
+
+		@media (--md) {
+			display: block;
+			flex-grow: 0;
+			flex-shrink: 0;
+			width: 200--px;
+		}
+
+		@media (--lg) {
+			width: 300--px;
+		}
+	}
+
+	&__title {
+		margin-bottom: 16--px;
+		font: var(--typo-h2);
+	}
+
+	&__description {
+		margin-bottom: 24--px;
+		font: var(--typo-t1);
+	}
+}

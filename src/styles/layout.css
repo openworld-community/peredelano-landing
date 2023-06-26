@@ -23,3 +23,7 @@
 		--page-gap: 64;
 	}
 }
+
+html {
+	scroll-behavior: smooth;
+}
