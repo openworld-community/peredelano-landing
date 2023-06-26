@@ -4,7 +4,7 @@ import styles from './Ideas.module.css'
 
 export default function Ideas() {
 	return (
-		<section className={styles.ideas}>
+		<section className={styles.ideas} id="ideas">
 			<div className={styles.ideas__container}>
 				<h2 className={styles.ideas__title}>Есть идея, которая может изменить мир?</h2>
 				<p className={styles.ideas__description}>
