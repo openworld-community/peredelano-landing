@@ -9,11 +9,13 @@ export default function Hero() {
 				<div className={styles.hero__content}>
 					<h1 className={styles.hero__title}>Peredelano Startups</h1>
 					<p className={styles.hero__description}>
-						Мы в комьюнити Peredelano собираемся в команды и запускаем стартапы. Вы
-						можете создай свой и позвать других людей или присоединиться к любому уже
-						действующему из списка ниже.
+						Мы&nbsp;в&nbsp;комьюнити Peredelano собираемся в&nbsp;команды
+						и&nbsp;запускаем стартапы. Вы&nbsp;можете создай свой и&nbsp;позвать других
+						людей или присоединиться к&nbsp;любому уже действующему из&nbsp;списка ниже.
 					</p>
-					<Button color="primary">Список проектов</Button>
+					<Button as="a" color="primary" href="#startups">
+						Список проектов
+					</Button>
 				</div>
 				<img
 					className={styles.hero__image}
