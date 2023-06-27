@@ -32,9 +32,6 @@ export const metadata = {
 export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
 		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
-			<head>
-				<meta property="og:image" content="/public/images/ogp/OGP.png" />
-			</head>
 			<body className={styles.body}>
 				<Header />
 				{children}
