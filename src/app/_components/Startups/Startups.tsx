@@ -9,7 +9,7 @@ export default function Startups() {
 			<div className={styles.startups__container}>
 				<h2 className={styles.startups__title}>Наши стартапы</h2>
 				<div className={styles.startups__list}>
-					{startups.map(({ id, title, description, donationLink }) => (
+					{startups.map(({ id, title, description, notionLink: donationLink }) => (
 						<div className={styles.card} key={id}>
 							<div>
 								<h3 className={styles.card__title}>{title}</h3>
@@ -17,7 +17,7 @@ export default function Startups() {
 							</div>
 							<div>
 								<Button color="primary" as="a" href={donationLink} target="_blank">
-									Задонатить
+									Подробнее
 								</Button>
 							</div>
 						</div>
