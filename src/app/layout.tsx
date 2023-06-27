@@ -20,7 +20,7 @@ export const metadata = {
 		title: 'Акселератор стартапов Peredelano Startups',
 		description:
 			'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
-		// url: 'https://nextjs.org',
+		url: 'https://peredelano-landing-mt10f0bdc-owc-landing.vercel.app/',
 		siteName: 'Акселератор стартапов Peredelano Startups',
 		locale: 'RU',
 		type: 'website',
