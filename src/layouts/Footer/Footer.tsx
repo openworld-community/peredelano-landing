@@ -1,5 +1,4 @@
 import { cx } from 'class-variance-authority'
-import Link from 'next/link'
 
 import { contactsLinks, navigationLinks, teamLinks } from '@/constants'
 
@@ -23,29 +22,31 @@ export default function Vacancies() {
 						<ul className={styles.list}>
 							{navigationLinks.map(({ id, name, href }) => (
 								<li className={styles.list__item} key={id}>
-									<Link className={styles.list__link} href={href}>
+									<a className={styles.list__link} href={href}>
 										{name}
-									</Link>
+									</a>
 								</li>
 							))}
 						</ul>
 					</div>
 					<div>
-						<h2 className={styles.footer__title}>Контакты</h2>
+						<h2 className={styles.footer__title} id="contacts">
+							Контакты
+						</h2>
 						<ul className={styles.list}>
-							{contactsLinks.map(({ id, description, name, href }) => (
+							{contactsLinks.map(({ id, name, href }) => (
 								<li className={styles.list__item} key={id}>
-									{description}
-									<br />
-									<Link
+									<a
 										className={cx(
 											styles.list__link,
 											styles['list__link--underlined']
 										)}
 										href={href}
+										target="_blank"
+										rel="noreferrer"
 									>
 										{name}
-									</Link>
+									</a>
 								</li>
 							))}
 						</ul>
@@ -57,15 +58,17 @@ export default function Vacancies() {
 								<li className={styles.list__item} key={id}>
 									{description}
 									<br />
-									<Link
+									<a
 										className={cx(
 											styles.list__link,
 											styles['list__link--underlined']
 										)}
 										href={href}
+										target="_blank"
+										rel="noreferrer"
 									>
 										{name}
-									</Link>
+									</a>
 								</li>
 							))}
 						</ul>

@@ -4,7 +4,7 @@ import styles from './Vacancies.module.css'
 
 export default function Vacancies() {
 	return (
-		<section className={styles.vacancies}>
+		<section className={styles.vacancies} id="vacancies">
 			<div className={styles.vacancies__container}>
 				<h2 className={styles.vacancies__title}>Хочешь принять участие в&nbsp;проекте?</h2>
 				<p className={styles.vacancies__description}>
