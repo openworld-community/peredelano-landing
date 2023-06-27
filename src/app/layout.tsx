@@ -24,13 +24,6 @@ export const metadata = {
 		description:
 			'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
 		siteName: 'Акселератор стартапов Peredelano Startups',
-		images: [
-			{
-				url: 'https://nextjs.org/og.png',
-				width: 800,
-				height: 600,
-			},
-		],
 		locale: 'ru_RU',
 		type: 'website',
 	},
