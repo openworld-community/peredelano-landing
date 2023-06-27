@@ -16,14 +16,23 @@ const jetBrainsMono = JetBrains_Mono({
 })
 
 export const metadata = {
-	title: 'Акселератор стартапов Peredelano Startups',
-	description:
-		'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
+	openGraph: {
+		title: 'Акселератор стартапов Peredelano Startups',
+		description:
+			'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
+		// url: 'https://nextjs.org',
+		siteName: 'Акселератор стартапов Peredelano Startups',
+		locale: 'RU',
+		type: 'website',
+	},
 }
 
 export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
 		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
+			<head>
+				<meta property="og:image" content="/public/images/ogp/OGP.png" />
+			</head>
 			<body className={styles.body}>
 				<Header />
 				{children}
