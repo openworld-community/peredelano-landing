@@ -16,13 +16,22 @@ const jetBrainsMono = JetBrains_Mono({
 })
 
 export const metadata = {
+	title: 'Акселератор стартапов Peredelano Startups',
+	description:
+		'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
 	openGraph: {
 		title: 'Акселератор стартапов Peredelano Startups',
 		description:
 			'Акселератор стартапов для инвестирования и создания команды. Присоединяйся к сообществу Peredelano startups',
-		url: 'https://peredelano-landing-mt10f0bdc-owc-landing.vercel.app/',
 		siteName: 'Акселератор стартапов Peredelano Startups',
-		locale: 'RU',
+		images: [
+			{
+				url: 'https://nextjs.org/og.png',
+				width: 800,
+				height: 600,
+			},
+		],
+		locale: 'ru_RU',
 		type: 'website',
 	},
 }
