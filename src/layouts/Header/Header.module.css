@@ -40,6 +40,7 @@
 	}
 
 	&__nav-link {
+		font: var(--typo-t2);
 		color: var(--color-white);
 		text-decoration: none;
 		text-transform: lowercase;
