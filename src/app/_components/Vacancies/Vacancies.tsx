@@ -17,7 +17,7 @@ export default function Vacancies() {
 					color="primary"
 					as="a"
 					target="_blank"
-					href="https://t.me/peredelanoconfjunior/16468"
+					href="https://t.me/Peredelano_bot"
 				>
 					Чат в&nbsp;Telegram
 				</Button>

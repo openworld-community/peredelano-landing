@@ -16,7 +16,7 @@ export default function Ideas() {
 					color="secondary"
 					as="a"
 					target="_blank"
-					href="https://t.me/peredelanoconfjunior/12272"
+					href="https://t.me/Peredelano_bot"
 				>
 					Чат в&nbsp;Telegram
 				</Button>
