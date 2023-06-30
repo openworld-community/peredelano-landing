@@ -1,4 +1,3 @@
-// import { Link } from '@/components'
 import Link from 'next/link'
 
 import { headerNavigationLinks } from '@/constants'
@@ -26,9 +25,9 @@ export default function Header() {
 					<ul className={styles['header__nav-list']}>
 						{headerNavigationLinks.map(({ id, name, href }) => (
 							<li key={id}>
-								<Link className={styles['header__nav-link']} href={href}>
+								<a className={styles['header__nav-link']} href={href}>
 									{name}
-								</Link>
+								</a>
 							</li>
 						))}
 					</ul>
