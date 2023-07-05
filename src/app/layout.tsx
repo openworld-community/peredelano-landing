@@ -29,9 +29,20 @@ export const metadata = {
 	},
 }
 
+const googleAnalitics = `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WP0LKMNBD2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WP0LKMNBD2');
+</script>`
+
 export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
 		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
+			<head>${googleAnalitics}</head>
 			<body className={styles.body}>
 				<Header />
 				{children}
