@@ -33,16 +33,14 @@ export const metadata = {
 export default function RootLayout({ children = null }: PropsWithChildren<{}>) {
 	return (
 		<html lang="ru" className={cx([jetBrainsMono.className, jetBrainsMono.variable])}>
-			{/* <!-- Google tag (gtag.js) --> */}
 			<Script async src="https://www.googletagmanager.com/gtag/js?id=G-WP0LKMNBD2" />
 			<Script id="google-analytics">
 				{`
-	window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-WP0LKMNBD2');
-  `}
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'G-WP0LKMNBD2');
+				`}
 			</Script>
 			<body className={styles.body}>
 				<Header />
