@@ -10,7 +10,7 @@ export default function Hero() {
 					<h1 className={styles.hero__title}>Peredelano Startups</h1>
 					<p className={styles.hero__description}>
 						Мы&nbsp;в&nbsp;комьюнити Peredelano собираемся в&nbsp;команды
-						и&nbsp;запускаем стартапы. Вы&nbsp;можете создай свой и&nbsp;позвать других
+						и&nbsp;запускаем стартапы. Вы&nbsp;можете создать свой и&nbsp;позвать других
 						людей или присоединиться к&nbsp;любому уже действующему из&nbsp;списка ниже.
 					</p>
 					<Button as="a" color="primary" href="#startups">
