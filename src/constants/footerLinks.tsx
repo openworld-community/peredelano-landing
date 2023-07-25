@@ -35,7 +35,7 @@ export const contactsLinks = [
 	{
 		id: 4,
 		name: <>Discord</>,
-		href: 'https://discord.gg/peredelano',
+		href: 'https://discord.gg/eB9QF9RJgu',
 	},
 	{
 		id: 5,
